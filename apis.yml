@@ -1,8 +1,23 @@
 aid: triumph-arcade
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/triumph-arcade.png
 name: Triumph Arcade
-description: 'Triumph Arcade is a company surfaced as a portfolio company of multicoin-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Triumph Labs (originally Triumph Arcade) is a consumer entertainment and commerce company
+  that builds mobile apps for competitive, skill-based gaming and collectibles. Its flagship products
+  are Triumph: Play for Cash, a real-money skill-gaming platform, and Rips by Triumph, a live collectibles
+  and trading-card ripping experience. Backed by Multicoin Capital, the company operates consumer iOS
+  apps and publishes no public developer API surface; this profile tracks the company identity, legal,
+  and domain-security posture for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/triumph-arcade/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto Web3
+- Gaming
+- Mobile Apps
+- Entertainment
+- Skill Games
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +43,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://triumpharcade.com
+  url: https://www.triumphlabs.com/
+- type: TermsOfService
+  url: https://docs.triumpharcade.com/terms-of-use-triumph-play-for-cash
+- type: PrivacyPolicy
+  url: https://docs.triumpharcade.com/privacy-policy-multi-product
+- type: Support
+  url: mailto:contact@triumpharcade.com
+- type: DomainSecurity
+  url: security/triumph-arcade-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
